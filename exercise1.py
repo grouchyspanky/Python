@@ -9,17 +9,17 @@ age= input('what year were you born?\n')
 relationship= input('Are you in a relationship y/n\n')
 
 if relationship == 'y':
-    relay= ('Relationship')
+    relayInfo= ('Relationship')
 
 if relationship =='n':
-    relay= ('Single')
+    relayInfo= ('Single')
      
 userage = (2022-int(age))
 
 if relationship=='y':
-    userinfo = (f'{name} is in a {relay}.\n  {name} is also {userage}')
+    userinfo = (f'{name} is in a {relayInfo}.\n  {name} is also {userage}')
 
 if relationship =='n':
-    userinfo = (f'{name} is {relay}.\n  {name} is also {userage}')
+    userinfo = (f'{name} is {relayInfo}.\n  {name} is also {userage}')
 
 print(userinfo)

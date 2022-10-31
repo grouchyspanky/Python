@@ -51,6 +51,7 @@ print(someList.count(2))
 print(someList)
 
 #sorts list by val or alph by making a new list that is sorted
+print(1 in someList)
 
 #reverse, reverses the list
 someList.reverse()

@@ -60,3 +60,5 @@ print(someList)
 someList.sort()
 
 print(someList)
+
+print(list(range(100)))

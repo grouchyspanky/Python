@@ -1,6 +1,6 @@
 #learning about dictionarys in python
 
-from turtle import clear
+'working in dictionarys and lists'
 
 
 dictionary = {
@@ -27,6 +27,7 @@ My_list = [
 
 print(My_list[1]['b'])
 print(My_list[1]['a'][2])
+
 print(dictionary['a'][2])
 
 
@@ -41,5 +42,13 @@ print(dictionary.get('cat_age', 100))
 print('x' in dictionary.keys())
 
 print(dictionary.items())
+
+print(dictionary.pop('a'))
+
+print(dictionary.items())
+
+print(dictionary.update({'b': 'Pumpkin'}))
+
+print(dictionary['b'])
 
 print(dictionary.clear)

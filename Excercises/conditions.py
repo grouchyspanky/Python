@@ -16,7 +16,12 @@ can_message='message allowed' if is_friend else 'not allowed to message'
 
 print(can_message)
 
+print('a' < 'A')
+
 if is_licenced == False:
     print('Falseeeeee')
+    
+    
+print (not(True))
     
     

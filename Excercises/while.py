@@ -10,8 +10,10 @@
 
 for item in [1,2,3]:
     print(item)
+    continue
     
 i=0
 while i < len([1,2,3]):
     print(i)
-i= i+1
+    i= i+1
+    continue

@@ -1,11 +1,12 @@
 'while loops'
 
-i = 0
-while i <25:
+"""
+    while i <25:
     print(f"{i}")
     i=1+i
     if i % 2 == 0:
         print(f"\n")
+"""
 
 for item in [1,2,3]:
     print(item)
@@ -13,4 +14,4 @@ for item in [1,2,3]:
 i=0
 while i < len([1,2,3]):
     print(i)
-i+=1
+i= i+1

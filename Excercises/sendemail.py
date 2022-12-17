@@ -1,5 +1,7 @@
 import smtplib
 
+'sending an email using yahoo'
+
 # Set the server and port
 server = smtplib.SMTP('smtp.mail.yahoo.com', 587)
 
